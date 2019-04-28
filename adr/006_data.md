@@ -1,13 +1,13 @@
 # Choice of Configuration and operational data
 
-#Status: accepted
+# Status: accepted
 
-#Context:
+# Context:
 
 The establishment of specific configuration and operational data is required 
 due to the application creating and storing information about users.
 
-#Decision:
+# Decision:
 
 A base for working with the application was needed, along with files to configure
 the application with sample data to provide proof of the concept. In addition, 
@@ -17,7 +17,7 @@ persistence. The files used for configuration are listed below:
 'createdata.sql'
 'createuser.sql'
 
-#Consequences:
+# Consequences:
 
 While data persistence allows data to be saved locally and remain when the 
 application is launched and brought down, the configuration data used, though 
